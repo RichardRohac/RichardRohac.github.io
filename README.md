@@ -1,1 +1,0 @@
-# RichardRohac.github.io
