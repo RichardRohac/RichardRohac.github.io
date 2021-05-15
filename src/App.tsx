@@ -15,20 +15,7 @@ function App() {
           <Menu.Item name='Home' active={true}/>
         </Menu>
         <title>Richard Rohac | Home</title>
-        <Grid stacking={true} className='main-content'>
-          <Grid.Row>
-            <Grid.Column>
-              <Header size='large' inverted={true}>Hey!</Header>
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row>
-            <Grid.Column width={11}>
-              <Header className='secondary-text' size='medium' inverted={true}>
-                So you found my personal website. Unfortunately this is still work-in-progress endeavour. Hopefully I will have more content soon!
-              </Header>
-            </Grid.Column>
-          </Grid.Row>
-          <Divider inverted={true}/>
+        <Grid stackable={true} className='main-content'>
           <Grid.Row>
             <Grid.Column width={3}>
               <Header size='medium' inverted={true}>
@@ -45,12 +32,8 @@ function App() {
                 <a href='https://uk.linkedin.com/in/richard-rohac' target='_blank'><Icon link={true} name='linkedin'/> LinkedIn</a>
               </Header>
             </Grid.Column>
-            <Grid.Column width={3}>
-              <Header size='medium' inverted={true}>
-                <a href='https://steamcommunity.com/id/_theone_/' target='_blank'><Icon link={true} name='steam'/> Steam</a>
-              </Header>
-            </Grid.Column>
           </Grid.Row>
+          <Divider inverted={true}/>
         </Grid>
       </Container>
       <Container className='footer-content secondary-text'>
